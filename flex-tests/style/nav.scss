@@ -1,0 +1,26 @@
+.site-nav {
+    display: flex;
+    padding: .5em;
+    list-style-type: none;
+    background-color: #5f4b44;
+
+    > .nav-right {
+        margin-left: auto;
+    }
+
+    > li {
+        margin-top: 0;
+        
+        & + li{
+            margin-left: 1.5em;
+        }
+
+        > a {
+            display: block;
+            padding: .5em 1em;
+            background-color: #cc6b5a;
+            color: white;
+            text-decoration: none;
+        }
+    }
+}
